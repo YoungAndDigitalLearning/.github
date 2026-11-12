@@ -9,6 +9,12 @@ An academic software engineering project combining a modern Vue.js frontend, a R
 
 **[Explore the Frontend](https://github.com/YoungAndDigitalLearning/ydl-front)** · **[View the Full Project](https://github.com/YoungAndDigitalLearning/ydl)** · **[Frontend Preview](https://younganddigitallearning.github.io/ydl-front/)**
 
+## Preview
+
+<img alt="YDL Logo" src="../docs/images/homepage.png" width="500">
+<img alt="YDL Logo" src="../docs/images/login.png" width="500">
+<img alt="YDL Logo" src="../docs/images/register.png" width="500">
+
 ---
 
 ## About the Project
