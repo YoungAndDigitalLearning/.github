@@ -11,9 +11,9 @@ An academic software engineering project combining a modern Vue.js frontend, a R
 
 ## Preview
 
-<img alt="YDL Logo" src="../docs/images/homepage.png" width="500">
-<img alt="YDL Logo" src="../docs/images/login.png" width="500">
-<img alt="YDL Logo" src="../docs/images/register.png" width="500">
+<img alt="YDL Logo" src="../docs/images/homepage.png" width="1000">
+<img alt="YDL Logo" src="../docs/images/login.png" width="1000">
+<img alt="YDL Logo" src="../docs/images/register.png" width="1000">
 
 ---
 
