@@ -7,6 +7,8 @@
 
 This repository contains the public GitHub organization profile and shared GitHub configuration for **Young & Digital Learning**, an academic full-stack software project developed as part of the *Programming Lab: Social Networking* at **Technische Universität Berlin (TU Berlin)** in collaboration with the **Sprach- und Kulturbörse (SKB)**.
 
+**[Explore Interactive Demo](https://younganddigitallearning.github.io/)**
+
 ## Organization Profile
 
 The public project overview is maintained in [`profile/README.md`](profile/README.md) and displayed on the [Young & Digital Learning organization page](https://github.com/YoungAndDigitalLearning).
