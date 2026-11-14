@@ -1,79 +1,95 @@
 <p align="center">
-    <img alt="YDL Logo" src="https://raw.githubusercontent.com/YoungAndDigitalLearning/ydl-front/refs/heads/master/images/YDL-Logo-35px.svg" width="220">
-    <h1 align="center">Young And Digital Learning</h1>
+  <img src="../images/branding/ydl-logo.svg" alt="Young & Digital Learning logo" width="220">
 </p>
+<h1 align="center">Young & Digital Learning</h1>
 
-**A full-stack web application developed at Technische Universität Berlin (TU Berlin) in collaboration with the Sprach- und Kulturbörse (SKB).**
+**An academic full-stack web application developed at Technische Universität Berlin (TU Berlin) in collaboration with the Sprach- und Kulturbörse (SKB).**
 
-An academic software engineering project combining a modern Vue.js frontend, a RESTful backend, and a self-managed Linux deployment environment.
+Originally developed as part of a university software engineering project, Young & Digital Learning combines a **Vue 2 frontend**, a **Django REST Framework API**, and a **MariaDB database**. The legacy application has since been reconstructed for local demonstration using Docker Compose, with fictional sample data and reproducible screenshots. A backend-free public browser demo is planned.
 
 <p align="center">
-<a href="https://younganddigitallearning.github.io/" target="_blank" rel="noopener noreferrer"><b>Explore Interactive Demo</b></a>
+  <a href="https://github.com/YoungAndDigitalLearning/ydl"><strong>Full Project</strong></a> ·
+  <a href="https://github.com/YoungAndDigitalLearning/ydl-front"><strong>Frontend</strong></a> ·
+  <a href="https://github.com/YoungAndDigitalLearning/ydl-api"><strong>Backend</strong></a> ·
+  <a href="https://younganddigitallearning.github.io/"><strong>GitHub Pages</strong></a>
 </p>
-
-**[View the Full Project](https://github.com/YoungAndDigitalLearning/ydl)**
-·
-**[Explore the Frontend](https://github.com/YoungAndDigitalLearning/ydl-front)**
-·
-**[Explore the Backend](https://github.com/YoungAndDigitalLearning/ydl-api)**
-
-
-## Preview
 
 ## Application Showcase
 
-Explore the original Young & Digital Learning application,
-reconstructed as an interactive portfolio demonstration
-with fictional sample data.
+The screenshots below show the restored application with **fictional demo accounts and sample content**. They illustrate both the student experience and the course management tools available to teachers.
 
-### Landing Page
+### Student Experience
 
-Public entry point featuring announcements, project
-branding, and user authentication.
+#### Landing Page
 
-![YDL landing page](../images/screenshots/student/01-landing.png)
+Project branding, announcements, and entry points for authentication.
 
-### Student Dashboard
+<p align="center"><img src="../images/screenshots/student/01-landing.png" alt="Young & Digital Learning public landing page with course announcements" width="1000"></p>
 
-Overview of enrolled courses, upcoming events,
-and course navigation.
+#### Student Dashboard
 
-![Student dashboard](../images/screenshots/student/02-dashboard.png)
+Overview of enrolled courses, navigation, and upcoming activities.
 
-### Course Management
+<p align="center"><img src="../images/screenshots/student/02-dashboard.png" alt="Student dashboard displaying joined courses and upcoming events" width="1000"></p>
 
-Students can discover courses, view course details,
-and manage their enrollment.
+#### Course Discovery and Details
 
-![Course catalog](../images/screenshots/student/04-all-courses.png)
+Students can browse available courses, review descriptions, and manage enrollment.
 
-![Course details](../images/screenshots/student/05-german-course.png)
+<p align="center"><img src="../images/screenshots/student/04-all-courses.png" alt="Catalog of available language and intercultural courses" width="1000"></p>
+<p align="center"><img src="../images/screenshots/student/05-german-course.png" alt="German Conversation A2 course overview for a student" width="1000"></p>
 
-### Course Discussions
+#### Course Forum
 
-Course-related discussions with threaded posts
-and replies.
+Course discussions with dedicated threads and replies.
 
-![Course forum](../images/screenshots/student/07-forum.png)
-![Course forum thread](../images/screenshots/student/08-forum-thread.png)
+<p align="center"><img src="../images/screenshots/student/07-forum.png" alt="Course discussion forum with example topics" width="1000"></p>
+<p align="center"><img src="../images/screenshots/student/08-forum-thread.png" alt="Discussion thread with student and teacher replies" width="1000"></p>
 
-### Interactive Quizzes
+#### Interactive Quiz
 
-Interactive exercises with immediate local feedback.
+An interactive language exercise with immediate **client-side feedback**. The demo result is not stored as a graded assessment.
 
-![Interactive quiz](../images/screenshots/student/10-quiz.png)
+<p align="center"><img src="../images/screenshots/student/10-quiz.png" alt="German language multiple-choice quiz in the student interface" width="1000"></p>
 
-### Course Calendar
+#### Course Calendar
 
-Calendar for upcoming course activities,
-assignments, and events.
+Calendar view for example course assignments and events.
 
-![Course calendar](../images/screenshots/student/09-calendar.png)
+<p align="center"><img src="../images/screenshots/student/09-calendar.png" alt="Student course calendar with upcoming activities" width="1000"></p>
 
----
+#### Mobile Views
 
-_Screenshots show fictional demonstration data.
-The original application was developed as an academic project._
+Two narrow-screen captures of the student course page and quiz, at a consistent **430 × 932 px** viewport.
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="../images/screenshots/mobile/01-german-course.png" alt="Mobile view of German Conversation A2 course details" width="280"></td>
+    <td align="center"><img src="../images/screenshots/mobile/02-german-quiz.png" alt="Mobile view of the German Conversation A2 quiz" width="280"></td>
+  </tr>
+  <tr><td align="center"><em>Course details</em></td><td align="center"><em>Interactive quiz</em></td></tr>
+</table>
+
+### Teacher Experience
+
+Teachers can manage their courses, edit course content, configure quizzes, and access forms for creating resources and new courses. The screenshots show the available management interfaces, not a claim that every editing workflow has been production-tested.
+
+#### Teacher Dashboard and Course Overview
+
+<p align="center"><img src="../images/screenshots/teacher/01-dashboard.png" alt="Teacher dashboard showing courses taught by the demo teacher" width="1000"></p>
+<p align="center"><img src="../images/screenshots/teacher/02-german-course.png" alt="German Conversation A2 course overview from the teacher account" width="1000"></p>
+
+#### Editing a Course and Quiz
+
+<p align="center"><img src="../images/screenshots/teacher/03-edit-course.png" alt="Teacher interface for editing the German Conversation A2 course" width="1000"></p>
+<p align="center"><img src="../images/screenshots/teacher/04-edit-quiz.png" alt="Teacher interface for editing course quiz questions and answers" width="1000"></p>
+
+#### Creating Learning Resources and Courses
+
+<p align="center"><img src="../images/screenshots/teacher/05-create-resource.png" alt="Teacher form for adding a learning resource" width="1000"></p>
+<p align="center"><img src="../images/screenshots/teacher/06-create-course.png" alt="Teacher form for creating a new course" width="1000"></p>
+
+_All screenshots use fictional demonstration data. The historical application is presented as an academic project and a portfolio reference._
 
 ---
 
@@ -87,16 +103,16 @@ Beyond application development, the project also covered server configuration an
 
 ## Technology Stack
 
-<img alt="Tech stack" target="_blank" src="https://raw.githubusercontent.com/YoungAndDigitalLearning/ydl-front/master/images/stack_features.jpg" href="https://raw.githubusercontent.com/YoungAndDigitalLearning/ydl-front/master/images/stack_features.jpg">
+<p align="center"><img src="../images/branding/technology-stack.jpg" alt="Technology stack used in Young & Digital Learning" width="850"></p>
 
-| Area                 | Technologies                                        |
-| -------------------- | --------------------------------------------------- |
-| **Frontend**         | Vue.js, JavaScript, Bootstrap, Sass/SCSS, HTML, CSS |
-| **Frontend Tooling** | npm                                                 |
-| **Backend**          | Python, Django REST Framework, REST APIs            |
-| **Database**         | MariaDB                                             |
-| **Deployment**       | Linux (Ubuntu), Nginx, Gunicorn                     |
-| **Version Control**  | Git, GitHub, Git Submodules                         |
+| Area                 | Technologies                                       |
+| -------------------- | -------------------------------------------------- |
+| **Frontend**         | Vue 2, JavaScript, Bootstrap, Sass/SCSS, HTML, CSS |
+| **Frontend Tooling** | Webpack 3, npm (legacy application)                |
+| **Backend**          | Python, Django REST Framework, REST APIs           |
+| **Database**         | MariaDB                                            |
+| **Deployment**       | Linux (Ubuntu), Nginx, Gunicorn                    |
+| **Version Control**  | Git, GitHub, Git Submodules                        |
 
 ## Application Architecture
 
@@ -122,7 +138,7 @@ The application was deployed on a self-managed Ubuntu server, with Nginx serving
 
 ## Project Repositories
 
-The project is organized into three Git repositories, with the frontend and backend integrated into the main repository as Git submodules.
+The application is organized into three Git repositories, with the frontend and backend integrated into the main repository as Git submodules. The organization also maintains a separate GitHub profile repository and a GitHub Pages repository for the planned public demo.
 
 ### [ydl — Main Project](https://github.com/YoungAndDigitalLearning/ydl)
 
@@ -139,6 +155,10 @@ The client-side application developed with Vue.js, JavaScript, Bootstrap, and Sa
 The server-side application developed with Python and Django REST Framework, backed by MariaDB.
 
 **Focus:** RESTful API endpoints, backend application logic, and persistent data storage.
+
+## Local Restoration & Portfolio Demo
+
+The original Vue 2 and Django 2 application has been restored locally using Docker Compose with separate frontend, backend, and MariaDB services. Fictional seeded data supports repeatable feature demonstrations and screenshot capture using Playwright. A standalone GitHub Pages demo without a live Django backend is being prepared.
 
 ## Deployment & Infrastructure
 
