@@ -7,13 +7,73 @@
 
 An academic software engineering project combining a modern Vue.js frontend, a RESTful backend, and a self-managed Linux deployment environment.
 
-**[Explore the Frontend](https://github.com/YoungAndDigitalLearning/ydl-front)** · **[View the Full Project](https://github.com/YoungAndDigitalLearning/ydl)** · **[Frontend Preview](https://younganddigitallearning.github.io/ydl-front/)**
+<p align="center">
+<a href="https://younganddigitallearning.github.io/" target="_blank" rel="noopener noreferrer"><b>Explore Interactive Demo</b></a>
+</p>
+
+**[View the Full Project](https://github.com/YoungAndDigitalLearning/ydl)**
+·
+**[Explore the Frontend](https://github.com/YoungAndDigitalLearning/ydl-front)**
+·
+**[Explore the Backend](https://github.com/YoungAndDigitalLearning/ydl-api)**
+
 
 ## Preview
 
-<img alt="YDL Logo" src="../docs/images/homepage.png" width="1000">
-<img alt="YDL Logo" src="../docs/images/login.png" width="1000">
-<img alt="YDL Logo" src="../docs/images/register.png" width="1000">
+## Application Showcase
+
+Explore the original Young & Digital Learning application,
+reconstructed as an interactive portfolio demonstration
+with fictional sample data.
+
+### Landing Page
+
+Public entry point featuring announcements, project
+branding, and user authentication.
+
+![YDL landing page](../images/screenshots/student/01-landing.png)
+
+### Student Dashboard
+
+Overview of enrolled courses, upcoming events,
+and course navigation.
+
+![Student dashboard](../images/screenshots/student/02-dashboard.png)
+
+### Course Management
+
+Students can discover courses, view course details,
+and manage their enrollment.
+
+![Course catalog](../images/screenshots/student/04-all-courses.png)
+
+![Course details](../images/screenshots/student/05-german-course.png)
+
+### Course Discussions
+
+Course-related discussions with threaded posts
+and replies.
+
+![Course forum](../images/screenshots/student/07-forum.png)
+![Course forum thread](../images/screenshots/student/08-forum-thread.png)
+
+### Interactive Quizzes
+
+Interactive exercises with immediate local feedback.
+
+![Interactive quiz](../images/screenshots/student/10-quiz.png)
+
+### Course Calendar
+
+Calendar for upcoming course activities,
+assignments, and events.
+
+![Course calendar](../images/screenshots/student/09-calendar.png)
+
+---
+
+_Screenshots show fictional demonstration data.
+The original application was developed as an academic project._
 
 ---
 
