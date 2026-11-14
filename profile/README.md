@@ -122,13 +122,17 @@ The application follows a client-server architecture with a clear separation bet
 
 A browser-based user interface built with Vue.js, using Bootstrap and Sass/SCSS for styling and responsive layouts.
 
+<p align="center">
 ↓
+</P>
 
 **Backend — Django REST Framework**
 
 A Python-based REST API responsible for handling application requests, business logic, and data access.
 
+<p align="center">
 ↓
+</P>
 
 **Database — MariaDB**
 
