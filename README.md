@@ -1,11 +1,15 @@
 <p align="center">
-    <img alt="YDL Logo" src="https://raw.githubusercontent.com/YoungAndDigitalLearning/ydl-front/refs/heads/master/images/YDL-Logo-35px.svg" width="220">
-    <h1 align="center">Young And Digital Learning</h1>
+  <img src="./images/branding/ydl-logo.svg" alt="Young & Digital Learning logo" width="220">
+</p>
+<h1 align="center">Young And Digital Learning</h1>
+
+<p align="center">
+  <img src="./images/branding/ydl-logo-big.svg" alt="Young & Digital Learning logo" width="200">
 </p>
 
 ## GitHub Organization Configuration
 
-This repository contains the public GitHub organization profile and shared GitHub configuration for **Young & Digital Learning**, an academic full-stack software project developed as part of the *Programming Lab: Social Networking* at **Technische Universität Berlin (TU Berlin)** in collaboration with the **Sprach- und Kulturbörse (SKB)**.
+This repository contains the public GitHub organization profile and shared GitHub configuration for **Young & Digital Learning**, an academic full-stack software project developed as part of the _Programming Lab: Social Networking_ at **Technische Universität Berlin (TU Berlin)** in collaboration with the **Sprach- und Kulturbörse (SKB)**.
 
 **[Explore Interactive Demo](https://younganddigitallearning.github.io/)**
 
@@ -17,11 +21,11 @@ It provides an introduction to the project, its technology stack, architecture, 
 
 ## Project Repositories
 
-| Repository | Description |
-| --- | --- |
-| [ydl](https://github.com/YoungAndDigitalLearning/ydl) | Main repository integrating the frontend and backend as Git submodules. |
-| [ydl-front](https://github.com/YoungAndDigitalLearning/ydl-front) | Vue.js frontend built with JavaScript, Bootstrap, and Sass/SCSS. |
-| [ydl-api](https://github.com/YoungAndDigitalLearning/ydl-api) | Python REST API built with Django REST Framework and MariaDB. |
+| Repository                                                        | Description                                                             |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| [ydl](https://github.com/YoungAndDigitalLearning/ydl)             | Main repository integrating the frontend and backend as Git submodules. |
+| [ydl-front](https://github.com/YoungAndDigitalLearning/ydl-front) | Vue.js frontend built with JavaScript, Bootstrap, and Sass/SCSS.        |
+| [ydl-api](https://github.com/YoungAndDigitalLearning/ydl-api)     | Python REST API built with Django REST Framework and MariaDB.           |
 
 ## Repository Structure
 
