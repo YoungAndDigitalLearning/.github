@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../images/branding/ydl-logo.svg" alt="Young & Digital Learning logo" width="220">
+  <img src="../images/branding/ydl-logo-big.svg" alt="Young & Digital Learning logo" width="260">
 </p>
 <h1 align="center">Young & Digital Learning</h1>
 
@@ -118,25 +118,25 @@ Beyond application development, the project also covered server configuration an
 
 The application follows a client-server architecture with a clear separation between the frontend, backend, and database.
 
-**Frontend — Vue.js**
-
-A browser-based user interface built with Vue.js, using Bootstrap and Sass/SCSS for styling and responsive layouts.
+---
 
 <p align="center">
-↓
-</P>
-
-**Backend — Django REST Framework**
-
-A Python-based REST API responsible for handling application requests, business logic, and data access.
-
-<p align="center">
-↓
-</P>
-
-**Database — MariaDB**
-
-Relational database used for persistent application data storage.
+  <b>Frontend — Vue.js</b>
+  </br>
+  <span>A browser-based user interface built with Vue.js, using Bootstrap and Sass/SCSS for styling and responsive layouts.</span>
+  </br>
+  <span>↓</span>
+  </br>
+  <b>Backend — Django REST Framework</b>
+  </br>
+  <span>A Python-based REST API responsible for handling application requests, business logic, and data access.</span>
+  </br>
+  <span>↓</span>
+  </br>
+  <b>Database — MariaDB</b>
+  </br>
+  <span>Relational database used for persistent application data storage.</span>
+</p>
 
 The application was deployed on a self-managed Ubuntu server, with Nginx serving as a web server and reverse proxy and Gunicorn running the Python backend.
 
