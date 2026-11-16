@@ -1,10 +1,25 @@
 <p align="center">
-  <img src="./images/branding/ydl-logo.svg" alt="Young & Digital Learning logo" width="220">
+  <img src="https://raw.githubusercontent.com/YoungAndDigitalLearning/.github/main/images/branding/ydl-logo.svg" alt="Young & Digital Learning logo" width="220">
 </p>
-<h1 align="center">Young And Digital Learning</h1>
+<h1 align="center">Young & Digital Learning</h1>
 
 <p align="center">
-  <img src="./images/branding/ydl-logo-big.svg" alt="Young & Digital Learning logo" width="200">
+  <!-- Vue.js -->
+  <a target="_blank" href="https://github.com/YoungAndDigitalLearning/ydl-front">
+    <img
+      src="https://img.shields.io/badge/Vue.js-2.x-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white"
+      alt="Vue.js 2 frontend"
+    >
+  </a>
+  <!-- Django -->
+  <a href="https://github.com/YoungAndDigitalLearning/ydl-api">
+    <img src="https://img.shields.io/badge/Python-Django-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Django backend">
+  </a>
+  </br>
+  <!-- GitHub License -->
+  <a target="_blank" href="https://github.com/YoungAndDigitalLearning/ydl-front/blob/master/LICENSE">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/YoungAndDigitalLearning/ydl-front?style=for-the-badge">
+  </a>
 </p>
 
 ## GitHub Organization Configuration
@@ -31,9 +46,16 @@ It provides an introduction to the project, its technology stack, architecture, 
 
 ```text
 .github/
-├── README.md          # About this configuration repository
-└── profile/
-    └── README.md      # Public organization profile
+├── README.md
+├── profile/
+│   └── README.md
+├── images/
+│   ├── branding/
+│   └── screenshots/
+│       ├── student/
+│       ├── teacher/
+│       └── mobile/
+└── docs/
 ```
 
 ## Updating the Organization Profile
