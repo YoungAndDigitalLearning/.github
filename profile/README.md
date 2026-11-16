@@ -45,6 +45,24 @@ The original REST API is also documented through a publicly accessible, read-onl
   <a target="_blank" rel="noopener noreferrer" href="https://younganddigitallearning.github.io/"><strong>GitHub Pages</strong></a>
 </p>
 
+<p align="center">
+  <a href="https://younganddigitallearning.github.io/">
+    <strong>Interactive Demo</strong>
+  </a>
+  &nbsp;·&nbsp;
+  <a href="https://younganddigitallearning.github.io/ydl-api/">
+    <strong>REST API Reference</strong>
+  </a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/YoungAndDigitalLearning/ydl/wiki">
+    <strong>Project Wiki</strong>
+  </a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/YoungAndDigitalLearning/ydl">
+    <strong>Source Code</strong>
+  </a>
+</p>
+
 ## Application Showcase
 
 The screenshots below show the restored application with **fictional demo accounts and sample content**. They illustrate both the student experience and the course management tools available to teachers.
