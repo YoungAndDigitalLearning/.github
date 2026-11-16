@@ -3,15 +3,46 @@
 </p>
 <h1 align="center">Young & Digital Learning</h1>
 
+<p align="center">
+  <!-- Website Online/Offline -->
+  <a href="https://younganddigitallearning.github.io/">
+    <img
+      src="https://img.shields.io/website?url=https%3A%2F%2Fyounganddigitallearning.github.io%2F&style=for-the-badge&logo=githubpages&label=Website&up_message=online&down_message=offline&up_color=brightgreen&down_color=red"
+      alt="Young and Digital Learning website availability"
+    >
+  </a>
+  </br>
+  <!-- Vue.js -->
+  <a target="_blank" href="https://github.com/YoungAndDigitalLearning/ydl-front">
+    <img
+      src="https://img.shields.io/badge/Vue.js-2.x-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white"
+      alt="Vue.js 2 frontend"
+    >
+  </a>
+  <!-- Django -->
+  <a href="https://github.com/YoungAndDigitalLearning/ydl-api">
+    <img src="https://img.shields.io/badge/Python-Django-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Django backend">
+  </a>
+  </br>
+  <!-- GitHub License -->
+  <a target="_blank" href="https://github.com/YoungAndDigitalLearning/ydl-front/blob/master/LICENSE">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/YoungAndDigitalLearning/ydl-front?style=for-the-badge">
+  </a>
+</p>
+
 **An academic full-stack web application developed at Technische Universität Berlin (TU Berlin) in collaboration with the Sprach- und Kulturbörse (SKB).**
 
-Originally developed as part of a university software engineering project, Young & Digital Learning combines a **Vue 2 frontend**, a **Django REST Framework API**, and a **MariaDB database**. The legacy application has since been reconstructed for local demonstration using Docker Compose, with fictional sample data and reproducible screenshots. A backend-free public browser demo is planned.
+Originally developed as an academic software engineering project, Young & Digital Learning combines a **Vue 2 frontend**, a **Django REST Framework API**, and a **MariaDB database**.
+
+The legacy full-stack application has been restored for local development and demonstration using Docker Compose. An **interactive, backend-free demo is now available on GitHub Pages**, featuring fictional student and teacher accounts, browser-local data persistence, and resettable sample content.
+
+The original REST API is also documented through a publicly accessible, read-only OpenAPI/Swagger reference.
 
 <p align="center">
-  <a href="https://github.com/YoungAndDigitalLearning/ydl"><strong>Full Project</strong></a> ·
-  <a href="https://github.com/YoungAndDigitalLearning/ydl-front"><strong>Frontend</strong></a> ·
-  <a href="https://github.com/YoungAndDigitalLearning/ydl-api"><strong>Backend</strong></a> ·
-  <a href="https://younganddigitallearning.github.io/"><strong>GitHub Pages</strong></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/YoungAndDigitalLearning/ydl"><strong>Full Project</strong></a> ·
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/YoungAndDigitalLearning/ydl-front"><strong>Frontend</strong></a> ·
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/YoungAndDigitalLearning/ydl-api"><strong>Backend</strong></a> ·
+  <a target="_blank" rel="noopener noreferrer" href="https://younganddigitallearning.github.io/"><strong>GitHub Pages</strong></a>
 </p>
 
 ## Application Showcase
@@ -140,6 +171,31 @@ The application follows a client-server architecture with a clear separation bet
 
 The application was deployed on a self-managed Ubuntu server, with Nginx serving as a web server and reverse proxy and Gunicorn running the Python backend.
 
+## REST API Reference
+
+The original Django REST Framework backend exposes the APIs used by the Vue frontend. An archived OpenAPI specification is available as an interactive, **read-only** Swagger UI reference. It documents the original API contract without requiring a running Django server.
+
+<p align="center">
+  <a href="https://younganddigitallearning.github.io/ydl-api/"><strong>Explore REST API Documentation</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://younganddigitallearning.github.io/ydl-api/openapi.json">Download OpenAPI JSON</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/YoungAndDigitalLearning/ydl-api">View Django Backend</a>
+</p>
+
+```mermaid
+flowchart LR
+    UI["Vue 2 frontend"] --> API["Django REST API"]
+    API --> AUTH["Authentication / users"]
+    API --> COURSES["Courses / enrollments"]
+    API --> CONTENT["Announcements / resources"]
+    API --> SOCIAL["Forum / discussions"]
+    API --> LEARNING["Quizzes / events"]
+```
+
+<small>The schema is a snapshot of the historical backend. All live API execution is disabled in this documentation; the public frontend demo uses fictional local data.</small>
+
+
 ## Project Repositories
 
 The application is organized into three Git repositories, with the frontend and backend integrated into the main repository as Git submodules. The organization also maintains a separate GitHub profile repository and a GitHub Pages repository for the planned public demo.
@@ -162,7 +218,7 @@ The server-side application developed with Python and Django REST Framework, bac
 
 ## Local Restoration & Portfolio Demo
 
-The original Vue 2 and Django 2 application has been restored locally using Docker Compose with separate frontend, backend, and MariaDB services. Fictional seeded data supports repeatable feature demonstrations and screenshot capture using Playwright. A standalone GitHub Pages demo without a live Django backend is being prepared.
+The original Vue 2 and Django 2 application has been restored locally using Docker Compose with separate frontend, backend, and MariaDB services. Fictional seeded data supports repeatable feature demonstrations and screenshot capture using Playwright. 
 
 ## Deployment & Infrastructure
 
