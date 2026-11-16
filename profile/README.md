@@ -55,39 +55,39 @@ The screenshots below show the restored application with **fictional demo accoun
 
 Project branding, announcements, and entry points for authentication.
 
-<p align="center"><img src="../images/screenshots/student/01-landing.png" alt="Young & Digital Learning public landing page with course announcements" width="1000"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/YoungAndDigitalLearning/.github/main/images/screenshots/student/01-landing.png" alt="Young & Digital Learning public landing page with course announcements" width="1000"></p>
 
 #### Student Dashboard
 
 Overview of enrolled courses, navigation, and upcoming activities.
 
-<p align="center"><img src="../images/screenshots/student/02-dashboard.png" alt="Student dashboard displaying joined courses and upcoming events" width="1000"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/YoungAndDigitalLearning/.github/main/images/screenshots/student/02-dashboard.png" alt="Student dashboard displaying joined courses and upcoming events" width="1000"></p>
 
 #### Course Discovery and Details
 
 Students can browse available courses, review descriptions, and manage enrollment.
 
-<p align="center"><img src="../images/screenshots/student/04-all-courses.png" alt="Catalog of available language and intercultural courses" width="1000"></p>
-<p align="center"><img src="../images/screenshots/student/05-german-course.png" alt="German Conversation A2 course overview for a student" width="1000"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/YoungAndDigitalLearning/.github/main/images/screenshots/student/04-all-courses.png" alt="Catalog of available language and intercultural courses" width="1000"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/YoungAndDigitalLearning/.github/main/images/screenshots/student/05-german-course.png" alt="German Conversation A2 course overview for a student" width="1000"></p>
 
 #### Course Forum
 
 Course discussions with dedicated threads and replies.
 
-<p align="center"><img src="../images/screenshots/student/07-forum.png" alt="Course discussion forum with example topics" width="1000"></p>
-<p align="center"><img src="../images/screenshots/student/08-forum-thread.png" alt="Discussion thread with student and teacher replies" width="1000"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/YoungAndDigitalLearning/.github/main/images/screenshots/student/07-forum.png" alt="Course discussion forum with example topics" width="1000"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/YoungAndDigitalLearning/.github/main/images/screenshots/student/08-forum-thread.png" alt="Discussion thread with student and teacher replies" width="1000"></p>
 
 #### Interactive Quiz
 
 An interactive language exercise with immediate **client-side feedback**. The demo result is not stored as a graded assessment.
 
-<p align="center"><img src="../images/screenshots/student/10-quiz.png" alt="German language multiple-choice quiz in the student interface" width="1000"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/YoungAndDigitalLearning/.github/main/images/screenshots/student/10-quiz.png" alt="German language multiple-choice quiz in the student interface" width="1000"></p>
 
 #### Course Calendar
 
 Calendar view for example course assignments and events.
 
-<p align="center"><img src="../images/screenshots/student/09-calendar.png" alt="Student course calendar with upcoming activities" width="1000"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/YoungAndDigitalLearning/.github/main/images/screenshots/student/09-calendar.png" alt="Student course calendar with upcoming activities" width="1000"></p>
 
 #### Mobile Views
 
